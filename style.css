@@ -1,0 +1,155 @@
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('https://fonts.cdnfonts.com/css/common-pixel');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+body{
+    background-color: #282828;
+    height: 100%;
+}
+
+.container{
+    height: 76%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.degrade{
+    background: linear-gradient(to right, #f4a506, #e0781b);
+}
+
+.degrade2{
+    background: linear-gradient(to right, #9d06f4, #9f5fdb);
+}
+/* Estilo dos headers*/
+
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    max-width: 120px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+header h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff9b05;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+/*Donating sats*/
+
+section.donating-sats{
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+section.donating-sats h1{
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+section.donating-sats img{
+    margin-top: 20px;
+    max-width: 225px;
+    border-radius: 5%;
+}
+
+
+/*Estilo dos botões*/
+
+section.buttons-links-channels{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section.buttons-links-channels h1{
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    transition: .2s;
+}
+
+a.link i{
+    font-size: 1.5em;
+}
+
+a.link button:hover, footer a.btn-footer:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    text-align: center;
+    margin: 30px 30px 0px 30px;
+}
+
+footer h1{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+footer a.btn-footer{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .2s;
+}
+
+.container2{
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff; 
+}
